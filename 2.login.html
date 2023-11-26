@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오르리청산-orri :: 로그인</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" alt="언덕 아이콘  제작자: Saepul Nahwan - Flaticon">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/2.login.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <header class="header">
+        <div class="contents">
+            <div class="logo">
+                <a href="./1.index.html"><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <ul class="nav_ul">
+                <li><a href="#">등산상점</a></li>
+                <li><a href="#">등산버스</a></li>
+                <li><a href="#">추천명산</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+            <ul class="login_box">
+                <li class="login"><a href="2.login.html">로그인</a></li>
+                <li class="v_line"></li>
+                <li class="join"><a href="3.join.html">회원가입</a></li>
+                <li class="mode"><a href="#">등산모드</a></li>
+            </ul>            
+        </div>
+        <div class="pan">
+            <div class="contents">
+                <div class="pan_wrap">
+                    <div class="pan_item" id="pan1">
+                        <p>등산여행</p>
+                        <p>테마산행</p>
+                        <p>캠핑</p>
+                        <p>백패킹</p>
+                        <p>아카데미</p>
+                    </div>
+                    <div class="pan_item" id="pan2">
+                        <p>경기・수도권</p>
+                        <p>강원</p>
+                        <p>충청・전라</p>
+                        <p>경상・울릉</p>
+                        <p>제주</p>
+                    </div>
+                    <div class="pan_item" id="pan3">
+                        <p>한국의 산</p>
+                        <p>해외의 산</p>
+                        <p>클라이밍</p>
+                        <p>둘레길</p>
+                    </div>
+                    <div class="pan_item" id="pan4">
+                        <p>산악회</p>
+                        <p>등산동행</p>
+                        <p>자유게시판</p>
+                        <p>맛집추천</p>
+                    </div>    
+                </div>                
+            </div>
+
+        </div>
+    </header>
+
+    <div class="w_800">
+        <div class="login_wrap">
+
+            <div class="login_title">
+                <p>로그인</p>
+            </div>
+
+            <div class="login_input">
+                <form action="#">
+                    <input type="text" name="id" placeholder="아이디">
+                    <input type="password" name="pwd" placeholder="비밀번호">
+
+                    <div class="login_keep">
+                        <input type="checkbox" name="login_keep">
+                        <p>로그인 상태 유지</p>
+                    </div>
+                    
+                    <input type="submit" value="로그인" name="login_btn">
+                    <div class="login_txt">
+                        <div class="login_join">
+                            <a href="#"><span>아이디 찾기</span></a>
+                            <span> ・ </span>
+                            <a href="#"><span>비밀번호 찾기</span></a>
+                        </div>
+                        <a href="3.join.html"><p>회원가입</p></a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="social_login">
+                <div class="social_login_title">
+                    <p>소셜 계정으로 로그인</p>
+                </div>
+
+                <ul>
+                    <li class="naver">
+                        <a href="#"><img src="./img/login_join/naver.png" alt=""></a>
+                    </li>
+                    <li class="kakao">
+                        <a href="#"><img src="./img/login_join/kakao.png" alt=""></a>
+                    </li>
+                    <li class="google">
+                        <a href="#"><img src="./img/login_join/google.png" alt=""></a>
+                    </li>
+                    <li class="apple">
+                        <a href="#"><img src="./img/login_join/apple.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+        
+    </div>
+</div>
+
+<script src="./js/2.login.js"></script>
+</body>
+</html>

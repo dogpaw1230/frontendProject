@@ -1,0 +1,64 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper_slide_monthlyMt:hover img:nth-child(1) {
+    scale: 1.1;
+}
+
+.swiper_slide_monthlyMt img:nth-of-type(2) {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* //////////////////////////// */
+.monthly_mountain {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.swiper_slide_monthlyMt {    
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.swiper_slide_monthlyMt img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+
+  transition: all 0.5s;
+}
+
+.swiper_slide_monthlyMt p {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+    font-family: 'NanumSquareNeo_bold';
+    font-size: 30px;
+    color: white;
+}
